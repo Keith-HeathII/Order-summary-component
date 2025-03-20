@@ -9,21 +9,21 @@ body {
 
 .order-summary {
     width: fit-content;
-    margin: 10px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
 }
 
 .order-summary-top {
-    width: 330px;
+    width: 340px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
 .order-summary-bottom {
-    width: 330px;
+    width: 340px;
     text-align: center;
-    background-color: rgb(240, 240, 240);
+    background-color:  hsl(225, 100%, 98%);
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -51,6 +51,7 @@ body {
 .payment-plan-box a {
     align-items: center;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .payment-plan-box span {
